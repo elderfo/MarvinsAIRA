@@ -1,9 +1,9 @@
 # World Model
 
 MarvinsAIRA is a Windows desktop WPF companion app for the iRacing sim: it reads live iRacing
-telemetry and drives a direct-drive/wheel's force feedback plus optional peripherals (Arduino wind
-fans, Simagic HPR pedal haptics, Logitech shift-light LEDs) and voice/audio feedback (TTS spotter
-callouts, chat relay, sound cues). It is the **legacy 1.x codebase and is no longer actively
+telemetry and drives a wheel's force feedback plus optional peripherals (Arduino wind fans, Simagic
+HPR pedal haptics, Logitech shift-light LEDs) and voice/audio feedback (TTS spotter callouts, chat
+relay, sound cues). It is the **legacy 1.x codebase and is no longer actively
 developed** — the maintained successor is a separate repo,
 [MAIRA Refactored (2.x)](https://github.com/mherbold/MarvinsAIRARefactored). This file exists so
 that any future contributor or delegated worker who picks up a unit of work here with no spec has
