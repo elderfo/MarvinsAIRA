@@ -54,8 +54,11 @@ System tray icon (`tb:TaskbarIcon`, `:1514`): context menu Show/Exit; left-click
 
 ## Dependencies
 
-Every tab binds through `Window.DataContext = local:Settings` (`MainWindow.xaml:27`) and calls back
-into `(App)Application.Current` for `InitializeForceFeedback`/`StopForceFeedback`/`InitializeLFE`/
+Every tab binds through the window's `DataContext`, which is seeded to a fresh `<local:Settings />`
+in XAML (`MainWindow.xaml:26-28`) and then overwritten with the real loaded instance once settings
+are read from disk (`mainWindow.DataContext = _settings;`, `App.Settings.cs:65`, inside
+`InitializeSettings()`). Tabs also call back into `(App)Application.Current` for
+`InitializeForceFeedback`/`StopForceFeedback`/`InitializeLFE`/
 `InitializeHPR`/`InitializeVoice`/`UpdateVolume`/`DoAutoOverallScaleNow`/`ResetAutoOverallScaleMetrics`/
 `PlayClick`/`PlayABS`/`StopABS`/`ScheduleReinitializeForceFeedback`/`QueueForSerialization` — i.e. the
 `App.*.cs` subsystems documented in the other reference docs.
@@ -94,8 +97,10 @@ event-driven, and supports two-button "hold + click" combos.
 
 ## Distribution / installation (`InstallScript.iss`)
 
-Inno Setup script. Installs to `{autopf}\MarvinsAIRA` (Program Files), per-user via
-`PrivilegesRequired=lowest/dialog` — **no admin rights required**. Copies published binaries from
+Inno Setup script. Installs to `{autopf}\MarvinsAIRA` (Program Files), per-user via two directives —
+`PrivilegesRequired=lowest` (defaults to a per-user install) and
+`PrivilegesRequiredOverridesAllowed=dialog` (lets the user opt into an admin/all-users install from
+the setup dialog) — **no admin rights required by default**. Copies published binaries from
 `bin\publish\*`, plus a separate `MarvinsAIRASimHub.dll` (a SimHub plugin, not part of this repo —
 see [reference-architecture.md](reference-architecture.md#external-dependencies-not-in-this-repo))
 into `{userdocs}\MarvinsAIRA`. Creates a Start Menu entry and optional desktop shortcut, offers to
