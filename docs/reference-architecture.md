@@ -137,3 +137,4 @@ still need to reason about:
 - [reference-voice-audio.md](reference-voice-audio.md) — Voice, spotter, chat, sound cues
 - [reference-ui.md](reference-ui.md) — MainWindow, dialogs, distribution
 - [explanation-architecture.md](explanation-architecture.md) — why the codebase is shaped this way
+- [tutorial-build-and-run-from-source.md](tutorial-build-and-run-from-source.md) — build this codebase and verify a change end-to-end

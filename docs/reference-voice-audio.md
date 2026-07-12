@@ -87,3 +87,5 @@ from `Settings.ABSSoundPitch`/`Volume` on every `PlayABS()` call rather than onl
 
 - [reference-telemetry.md](reference-telemetry.md) — telemetry inputs (car-left-right, session flags, ABS state)
 - [reference-settings.md](reference-settings.md) — the phrase-template and audio-cue settings
+- [howto-add-sound-cue.md](howto-add-sound-cue.md) — adding a new sound cue
+- [howto-set-up-voice-alerts.md](howto-set-up-voice-alerts.md) — end-user guide to configuring voice, spotter, and chat relay

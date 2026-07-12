@@ -71,3 +71,4 @@ cooldown ramping) is hand-implemented as time-based scale multipliers rather tha
 
 - [reference-force-feedback.md](reference-force-feedback.md) — the concrete effect catalog and API
 - [explanation-architecture.md](explanation-architecture.md) — the broader "one dev, ship fast" ethos this reflects
+- [howto-add-force-feedback-effect.md](howto-add-force-feedback-effect.md) — applying this design to add a new effect

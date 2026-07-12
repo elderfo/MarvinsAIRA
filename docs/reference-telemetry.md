@@ -124,3 +124,4 @@ if (sessionNum != _irsdk_sessionNum)
 - [reference-force-feedback.md](reference-force-feedback.md) — the primary consumer of this telemetry
 - [explanation-telemetry-sync.md](explanation-telemetry-sync.md) — why this subsystem is event-driven
   and uses string-identity change detection instead of SDK-provided change events
+- [tutorial-first-time-setup.md](tutorial-first-time-setup.md) — confirming a live telemetry connection for the first time

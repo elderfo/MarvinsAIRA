@@ -101,3 +101,4 @@ public float OverallScale
 - [reference-architecture.md](reference-architecture.md) — how `App.Settings.cs` fits into startup
 - [explanation-architecture.md](explanation-architecture.md) — why settings persistence has no
   versioning discipline
+- [howto-configure-force-feedback.md](howto-configure-force-feedback.md), [howto-set-up-voice-alerts.md](howto-set-up-voice-alerts.md) — end-user guides that tune fields documented here

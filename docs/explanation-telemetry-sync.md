@@ -67,3 +67,4 @@ outside of a session transition).
 
 - [reference-telemetry.md](reference-telemetry.md) — the concrete API surface
 - [explanation-architecture.md](explanation-architecture.md) — the broader architectural context
+- [tutorial-first-time-setup.md](tutorial-first-time-setup.md) — seeing this sync in action for the first time

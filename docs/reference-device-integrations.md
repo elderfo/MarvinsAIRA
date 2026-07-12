@@ -89,3 +89,4 @@ multi-device selection — a single global `HPR` instance/handle.
 - [reference-force-feedback.md](reference-force-feedback.md) — `_ffb_understeerAmount`/`_ffb_oversteerAmount` computed there feed HPR effect selection
 - [reference-telemetry.md](reference-telemetry.md) — telemetry fields both integrations read
 - [reference-settings.md](reference-settings.md) — the effect-slot and strength settings
+- [howto-add-wheel-device-integration.md](howto-add-wheel-device-integration.md) — adding a new device integration following this file's pattern

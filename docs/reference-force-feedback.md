@@ -128,3 +128,5 @@ was abandoned.
   which reuse the understeer/oversteer amounts computed here
 - [explanation-force-feedback-design.md](explanation-force-feedback-design.md) — design rationale
   and trade-offs
+- [howto-add-force-feedback-effect.md](howto-add-force-feedback-effect.md) — adding a new effect to the catalog documented here
+- [howto-configure-force-feedback.md](howto-configure-force-feedback.md) — end-user guide to tuning these settings via the UI

@@ -84,3 +84,4 @@ more than removing the abandoned one.
 - [reference-architecture.md](reference-architecture.md) — the concrete file/subsystem map
 - [explanation-force-feedback-design.md](explanation-force-feedback-design.md)
 - [explanation-telemetry-sync.md](explanation-telemetry-sync.md)
+- [tutorial-build-and-run-from-source.md](tutorial-build-and-run-from-source.md) — see this structure by building and changing it

@@ -110,3 +110,5 @@ launch the app post-install. Output file `MarvinsAIRA-Setup-{version}.exe`.
 
 - [reference-architecture.md](reference-architecture.md) — app lifecycle this UI drives
 - [reference-force-feedback.md](reference-force-feedback.md), [reference-device-integrations.md](reference-device-integrations.md), [reference-voice-audio.md](reference-voice-audio.md), [reference-settings.md](reference-settings.md) — subsystems each tab configures
+- [tutorial-first-time-setup.md](tutorial-first-time-setup.md) — first launch and the UI a new user sees
+- [howto-map-wheel-buttons.md](howto-map-wheel-buttons.md) — using the `MapButtonWindow` dialog documented here
