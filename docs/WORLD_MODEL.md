@@ -180,6 +180,38 @@ status banner in `docs/reference-architecture.md`). The maintained successor is 
 new-feature work here (as opposed to a targeted fix/doc update), a delegated worker should surface the
 question "should this go in the 2.x repo instead?" rather than assuming this repo is the right target.
 
+### Where to go deeper
+
+This file is a compressed summary, not the source of truth — it can go stale. When it doesn't answer
+the question, or a task needs more than standing context, go to `docs/`:
+
+- **Fastest orientation (token-lean, agent context loading)** — `docs/CODEMAPS/`:
+  [architecture.md](CODEMAPS/architecture.md) (entry point, subsystem map, startup/update-loop),
+  [dependencies.md](CODEMAPS/dependencies.md) (external projects, NuGet packages, native SDKs),
+  [frontend.md](CODEMAPS/frontend.md) (WPF window/tab tree, state binding).
+- **Reference (complete technical detail)** — [reference-architecture.md](reference-architecture.md),
+  [reference-settings.md](reference-settings.md), [reference-telemetry.md](reference-telemetry.md),
+  [reference-force-feedback.md](reference-force-feedback.md),
+  [reference-device-integrations.md](reference-device-integrations.md),
+  [reference-voice-audio.md](reference-voice-audio.md), [reference-ui.md](reference-ui.md).
+- **Explanation (why, not just what)** — [explanation-architecture.md](explanation-architecture.md),
+  [explanation-force-feedback-design.md](explanation-force-feedback-design.md),
+  [explanation-telemetry-sync.md](explanation-telemetry-sync.md).
+- **Tutorials (learn by doing)** —
+  [tutorial-build-and-run-from-source.md](tutorial-build-and-run-from-source.md) (dev),
+  [tutorial-first-time-setup.md](tutorial-first-time-setup.md) (end user).
+- **How-to guides (task-oriented)** — dev:
+  [howto-add-wheel-device-integration.md](howto-add-wheel-device-integration.md),
+  [howto-add-force-feedback-effect.md](howto-add-force-feedback-effect.md),
+  [howto-add-sound-cue.md](howto-add-sound-cue.md); end user:
+  [howto-configure-force-feedback.md](howto-configure-force-feedback.md),
+  [howto-set-up-voice-alerts.md](howto-set-up-voice-alerts.md),
+  [howto-map-wheel-buttons.md](howto-map-wheel-buttons.md).
+
+If a fact you had to dig for while doing a task isn't already captured above or in the durable
+sections of this file, that's a gap — consider adding it (here if durable/standing, in the relevant
+`docs/` file if it's detail-level) rather than letting the next worker re-derive it.
+
 ## What goes here, what doesn't
 
 This file holds **durable** facts: things true regardless of which task is currently in flight —
