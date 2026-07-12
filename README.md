@@ -8,7 +8,10 @@ https://github.com/mherbold/MarvinsAIRARefactored
 
 ## Documentation
 
-Documentation for this legacy codebase lives in [`docs/`](docs/):
+Documentation for this legacy codebase lives in [`docs/`](docs/). For a fast,
+token-lean structural overview (good for AI context loading), see
+[`docs/CODEMAPS/`](docs/CODEMAPS/): [architecture](docs/CODEMAPS/architecture.md),
+[dependencies](docs/CODEMAPS/dependencies.md), [frontend](docs/CODEMAPS/frontend.md).
 
 **Tutorials** — learning by doing, start to finish:
 
